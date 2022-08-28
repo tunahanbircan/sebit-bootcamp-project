@@ -15,8 +15,8 @@ export class CategoryComponent implements OnInit {
   categoryId: string | null = ''
   postsObj!: Post[];
   category!: Category;
-  postNumber: number = 0
-  categoryObj:any
+  postNumber: number = 0;
+  categoryObj:any;
   tags:Array<any>=['foo','bar','baz']
   constructor(private dataService: DataService, private route : ActivatedRoute, private httpClient : HttpClient, private router:Router) {
     this.categories = dataService.categories;
