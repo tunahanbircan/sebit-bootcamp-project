@@ -9,11 +9,9 @@
           <div class="sm:text-center">
             <h2 class="text-3xl font-bold text-white tracking-tight sm:text-4xl mb-12">How can we help you?</h2>
           </div>
-          <!-- class="mt-12 sm:mx-auto sm:max-w-lg sm:flex" -->
           <form class="searchForm" [formGroup]="searchForm" (ngSubmit)="onSubmit()">
             <div class="min-w-0 flex-1 relative">
               <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <!-- Heroicon name: mini/envelope -->
                 <img src="../../assets/icons/search.svg">
               </div>
               <input id="cta-email" type="text" formControlName="searchInput" class="block w-full border border-transparent rounded-md pl-12 px-5 py-3 text-base text-gray-900 placeholder-white shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 bg-purple-400" placeholder="Search for answers">

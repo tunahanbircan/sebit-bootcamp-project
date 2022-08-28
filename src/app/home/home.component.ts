@@ -17,10 +17,4 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-
-  onClick(id: Number){
-    console.log(id);
-//    this.router.navigate(['/category', ''])
-  }
-
 }
